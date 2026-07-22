@@ -7,7 +7,7 @@ import { userDataContext } from "../context/UserContext";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import axios from "axios";
-const socket=io("http://localhost:8000")
+const socket=io("https://linkedin-backend-8xls.onrender.com")
 function ConnectionButton({userId}){
     let {serverurl}=useContext(authDataContext)
     let navigate=useNavigate()
