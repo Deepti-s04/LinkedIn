@@ -1,6 +1,6 @@
 import React, { createContext } from "react";
 export const authDataContext=createContext()
-const serverurl="http://localhost:8000"
+const serverurl="https://linkedin-backend-8xls.onrender.com"
 export default function AuthContext({children}){
     let value={
         serverurl
