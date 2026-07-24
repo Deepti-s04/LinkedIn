@@ -49,7 +49,7 @@ io.on("connection",(socket)=>{
 })
 
 
-server.listen(port, () => {
+server.listen(8000, () => {
   connectdb();
   console.log("server started");
 });
